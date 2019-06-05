@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ThemeSwapToy</string>
+
+    <string-array name="themes">
+        <item>red</item>
+        <item>blue</item>
+        <item>green</item>
+    </string-array>
+</resources>
