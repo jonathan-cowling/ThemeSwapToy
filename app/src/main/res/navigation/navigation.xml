@@ -12,7 +12,11 @@
     </fragment>
     <fragment android:id="@+id/testFragment"
               android:name="com.moneysupermarket.cowling.jonathan.themeswaptoy.TestFragment"
-              android:label="fragment_test" tools:layout="@layout/fragment_test"/>
+              android:label="fragment_test" tools:layout="@layout/fragment_test">
+        <action android:id="@+id/action_testFragment_to_test2" app:destination="@id/test2"/>
+    </fragment>
     <fragment android:id="@+id/placeholder"
               android:name="com.moneysupermarket.cowling.jonathan.themeswaptoy.SettingsFragment"/>
+    <fragment android:id="@+id/test2" android:name="com.moneysupermarket.cowling.jonathan.themeswaptoy.Test2Fragment"
+              android:label="fragment_test2"/>
 </navigation>

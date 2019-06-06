@@ -4,7 +4,6 @@
         <item name="colorPrimary">#888888</item>
         <item name="colorPrimaryDark">#555555</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowFullscreen">true</item>
     </style>
 
     <style name="AppTheme.Red" parent="Theme.AppCompat.Light.NoActionBar">
